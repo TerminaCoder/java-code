@@ -1,0 +1,5 @@
+rootProject.name = 'java-code'
+include 'lxf-mybatis'
+include 'lxf-spring'
+include 'lxf-base'
+
