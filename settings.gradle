@@ -2,4 +2,7 @@ rootProject.name = 'java-code'
 include 'lxf-mybatis'
 include 'lxf-spring'
 include 'lxf-base'
+//
+include 'rpc:lxf-rpc-client'
+include 'rpc:lxf-rpc-server'
 
