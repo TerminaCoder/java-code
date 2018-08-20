@@ -9,6 +9,7 @@ public class JNIDemo {
     public native void testHello();
 
     public static void main(String[] args) {
+        // vm配置 -Djava.library.path=E:\\users\\coder\\source\\repos\\TestJNI\\x64\\Release
         System.loadLibrary("TestJNI");
 //        System.load("E:\\users\\coder\\source\\repos\\TestJNI\\x64\\Release\\TestJNI.dll");
         JNIDemo jniDemo = new JNIDemo();
