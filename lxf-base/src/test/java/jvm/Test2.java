@@ -29,8 +29,12 @@ public class Test2 {
 
 
     public static void main(String[] args) {
-        System.out.println(tableSizeFor(1));
-        Map map = new HashMap(1);
-        map.put("1", "e");
+        String[] s = {
+                "1", "2", "3", "4"
+        };
+        for(String[] temp = s;;) System.out.println(temp.length);
+//        System.out.println(tableSizeFor(1));
+//        Map map = new HashMap(1);
+//        map.put("1", "e");
     }
 }
